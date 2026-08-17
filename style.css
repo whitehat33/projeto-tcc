@@ -46,6 +46,13 @@ p{
     font-size: 20px;
 }
 
-button{
-    font-stretch: expanded;
+.botao{
+    display: inline-block;
+    background-color: #b8860b;
+    color: bisque;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
