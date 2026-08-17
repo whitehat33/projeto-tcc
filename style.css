@@ -14,24 +14,11 @@ h2{
     font-weight: 100;
 }
 
-body{
-    background-image: url("fundo.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-         /* baixo */
-    
-
-
-    
-   
-}
 
 .container{
     display: flex;
     justify-content: flex-start; /* esquerda */
     align-items: flex-end; /* baixo */
-    
     height: 100vh;
 }
 
@@ -47,10 +34,6 @@ body{
     
     margin-top: 9;
     padding: 30px;
-    
-
-    
-
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
@@ -61,4 +44,8 @@ h2{
 
 p{
     font-size: 20px;
+}
+
+button{
+    font-stretch: expanded;
 }
