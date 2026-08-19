@@ -1,9 +1,11 @@
 body{
+    margin: 0;
     background-image: url("fundo.png"); /* nome da sua imagem */
-    background-size: cover; /* cobre a tela toda */
+    background-size: 100% 100%; /* cobre a tela toda */
     background-position: center; /* centraliza */
     background-repeat: no-repeat; /* não repete */
     background-attachment: fixed; /* fundo fixo ao rolar */
+    min-height: 100vh;
 }
 
 h2{
@@ -25,7 +27,7 @@ h2{
 
 .caixa{
     width: 200px;
-    height: 600px; /* retângulo em pé */
+    height: 850px; /* retângulo em pé */
     
     background: rgba(255,255,255,0.85); /* transparente */
     
@@ -46,6 +48,13 @@ p{
     font-size: 20px;
 }
 
-button{
-    font-stretch: expanded;
+.botao{
+    display: inline-block;
+    background-color: #b8860b;
+    color: bisque;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
