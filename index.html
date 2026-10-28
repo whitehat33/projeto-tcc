@@ -1,22 +1,54 @@
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <style class="css"></style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tcc 3° DS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="Acervo digital sobre personalidades influentes e a história cultural de Taubaté, no Vale do Paraíba.">
+  <title>Acervo Taubaté | Personalidades e memória</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<heade>
-    <div class="caixa">
-        <h2>Museu Taubaté</h2>
-        <p>Pessoas famosas e influentes de Taubaté</p>
-        <a class="botao"
-         href="https://guiataubate.com.br/historia-de-taubate/">onde fica taubaté?</a>
-    
+  <header class="cabecalho">
+    <div class="largura navegacao">
+      <a class="marca" href="#inicio">Acervo <span>Taubaté</span></a>
+      <nav class="links-nav" aria-label="Navegação principal">
+        <a href="#personalidades">Personalidades</a>
+        <a href="#historia">História da cidade</a>
+      </nav>
     </div>
-</heade>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+  </header>
+  <main id="inicio" class="largura">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <span class="selo">Memória • Cultura • Vale do Paraíba</span>
+      <h1 id="titulo-principal">Quem fez Taubaté ser lembrada.</h1>
+      <p>Um acervo digital dedicado às pessoas que marcaram a literatura, a música, o cinema e a história de Taubaté, além das raízes da própria cidade.</p>
+      <div class="acoes">
+        <a class="botao" href="#personalidades">Explorar personalidades</a>
+        <a class="botao secundario" href="#historia">Conhecer a cidade</a>
+      </div>
+    </section>
+    <section id="personalidades" class="secao" aria-labelledby="titulo-personalidades">
+      <div class="cabecalho-secao">
+        <div><span class="selo">Gente que fez história</span><h2 id="titulo-personalidades">Personalidades</h2></div>
+        <p id="contador">Conheça nomes ligados a Taubaté.</p>
+      </div>
+      <div class="ferramentas">
+        <input class="busca" id="busca" type="search" placeholder="Buscar nome, profissão ou área..." aria-label="Buscar personalidades">
+        <div class="filtros" id="filtros" aria-label="Filtrar por área"></div>
+      </div>
+      <div class="grade" id="grade-personalidades" aria-live="polite"></div>
+    </section>
+    <section id="historia" class="secao" aria-labelledby="titulo-historia">
+      <div class="historia">
+        <span class="selo">Raízes e memória</span>
+        <h2 id="titulo-historia">Uma cidade de muitas histórias</h2>
+        <p>Taubaté fica no Vale do Paraíba paulista e reúne capítulos importantes da história econômica e cultural do Brasil. O acervo apresenta uma linha do tempo introdutória e destaca a contribuição de personalidades ligadas à cidade.</p>
+        <ol class="linha-tempo" id="linha-tempo"></ol>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape"><div class="largura">Acervo Digital de Taubaté · Projeto de TCC · Conteúdo para fins educativos.</div></footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
