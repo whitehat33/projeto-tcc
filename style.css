@@ -21,3 +21,21 @@ body {
   line-height: 1.6;
 }
 h1, h2, h3 { font-family: var(--serifada); font-weight: 600; line-height: 1.15; }
+a { color: inherit; }
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 3px solid var(--destaque); outline-offset: 3px; }
+
+.cabecalho {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(244, 241, 233, .94);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--linha);
+}
+.largura { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+.navegacao { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:18px 0; }
+.marca { font-family:var(--serifada); font-size:1.35rem; font-weight:700; text-decoration:none; }
+.marca span { color:var(--destaque); }
+.links-nav { display:flex; gap:16px; flex-wrap:wrap; }
+.links-nav a { text-decoration:none; color:var(--suave); font-size:.92rem; }
+.links-nav a:hover { color:var(--destaque); }
