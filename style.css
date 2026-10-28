@@ -7,8 +7,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;color:var(--texto);background:var(--fundo);font-family:var(--sem-serifa);line-height:1.6;position:relative}
-body::before{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradient(rgba(244,241,233,.84),rgba(244,241,233,.94)),url("capa.png") center center / cover no-repeat;pointer-events:none}
+body{margin:0;color:var(--texto);background:linear-gradient(rgba(244,241,233,.84),rgba(244,241,233,.94)),url("capa.png") center center / cover fixed no-repeat;background-color:var(--fundo);font-family:var(--sem-serifa);line-height:1.6}
 .hero{position:relative;isolation:isolate;max-width:none;width:min(1120px,calc(100% - 40px));margin:30px auto 0;padding:clamp(38px,6vw,76px);border:1px solid rgba(142,112,73,.28);border-radius:14px;overflow:hidden;background:linear-gradient(90deg,rgba(255,253,248,.96) 0%,rgba(255,253,248,.88) 55%,rgba(255,253,248,.25) 100%),url("capa.png") center center / cover no-repeat;box-shadow:0 16px 45px rgba(65,45,24,.10)}
 .hero h1{max-width:700px;color:#172d3a;text-wrap:balance}
 .hero p{max-width:620px}
