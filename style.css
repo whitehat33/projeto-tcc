@@ -1,60 +1,23 @@
-body{
-    margin: 0;
-    background-image: url("fundo.png"); /* nome da sua imagem */
-    background-size: 100% 100%; /* cobre a tela toda */
-    background-position: center; /* centraliza */
-    background-repeat: no-repeat; /* não repete */
-    background-attachment: fixed; /* fundo fixo ao rolar */
-    min-height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root {
+  --fundo: #f4f1e9;
+  --papel: #fffdf8;
+  --texto: #25251f;
+  --suave: #706f65;
+  --destaque: #8d3028;
+  --linha: #ded8cb;
+  --serifada: 'Playfair Display', Georgia, serif;
+  --sem-serifa: 'DM Sans', Arial, sans-serif;
 }
 
-h2{
-    color: rgba(220, 187, 43, 0.717);
-    font-family: 'Cinzel', serif ;
-    font-size: 70px;
-    letter-spacing: 5px;
-    font-weight: 100;
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--texto);
+  background: var(--fundo);
+  font-family: var(--sem-serifa);
+  line-height: 1.6;
 }
-
-
-.container{
-    display: flex;
-    justify-content: flex-start; /* esquerda */
-    align-items: flex-end; /* baixo */
-    height: 100vh;
-}
-
-
-.caixa{
-    width: 200px;
-    height: 850px; /* retângulo em pé */
-    
-    background: rgba(255,255,255,0.85); /* transparente */
-    
-    border: 3px solid #b8860b;
-    border-radius: 15px;
-    
-    margin-top: 9;
-    padding: 30px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
-}
-
-h2{
-    font-family: 'Cinzel', serif;
-    font-size: 45px;
-}
-
-p{
-    font-size: 20px;
-}
-
-.botao{
-    display: inline-block;
-    background-color: #b8860b;
-    color: bisque;
-    text-decoration: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
+h1, h2, h3 { font-family: var(--serifada); font-weight: 600; line-height: 1.15; }
