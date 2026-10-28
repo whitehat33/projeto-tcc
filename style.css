@@ -7,7 +7,16 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;color:var(--texto);background:var(--fundo) url("capa.png") center top / cover fixed no-repeat;font-family:var(--sem-serifa);line-height:1.6}
+body{margin:0;color:var(--texto);background:var(--fundo);font-family:var(--sem-serifa);line-height:1.6;position:relative}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradient(rgba(244,241,233,.84),rgba(244,241,233,.94)),url("capa.png") center center / cover no-repeat;pointer-events:none}
+.hero{position:relative;isolation:isolate;max-width:none;width:min(1120px,calc(100% - 40px));margin:30px auto 0;padding:clamp(38px,6vw,76px);border:1px solid rgba(142,112,73,.28);border-radius:14px;overflow:hidden;background:linear-gradient(90deg,rgba(255,253,248,.96) 0%,rgba(255,253,248,.88) 55%,rgba(255,253,248,.25) 100%),url("capa.png") center center / cover no-repeat;box-shadow:0 16px 45px rgba(65,45,24,.10)}
+.hero h1{max-width:700px;color:#172d3a;text-wrap:balance}
+.hero p{max-width:620px}
+.cabecalho{background:rgba(250,247,239,.94);border-bottom-color:rgba(142,112,73,.25)}
+.cartao,.historia{box-shadow:0 8px 24px rgba(65,45,24,.045)}
+.secao{scroll-margin-top:90px}
+@media(max-width:700px){.hero{width:calc(100% - 28px);margin-top:14px;padding:30px 22px;background:linear-gradient(rgba(255,253,248,.9),rgba(255,253,248,.94)),url("capa.png") center center / cover no-repeat}.hero p{font-size:1rem}}
+
 h1,h2,h3{font-family:var(--serifada);font-weight:600;line-height:1.15}
 a{color:inherit}
 button,input{font:inherit}
