@@ -7,7 +7,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;color:var(--texto);background:var(--fundo);font-family:var(--sem-serifa);line-height:1.6}
+body{margin:0;color:var(--texto);background:var(--fundo) url("capa.png") center top / cover fixed no-repeat;font-family:var(--sem-serifa);line-height:1.6}
 h1,h2,h3{font-family:var(--serifada);font-weight:600;line-height:1.15}
 a{color:inherit}
 button,input{font:inherit}
