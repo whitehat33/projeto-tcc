@@ -41,7 +41,7 @@ fontes:[["Museu Mazzaropi – biografia","https://museumazzaropi.org.br/mazzarop
 "celly-campello": {
 nome:"Celly Campello",area:"Música · Cinema",nascimento:"18 de junho de 1942",morte:"4 de março de 2003",origem:"Nasceu em São Paulo; criada em Taubaté",
 resumo:"Cantora considerada uma das pioneiras do rock brasileiro, que começou a se apresentar ainda criança em emissoras de rádio de Taubaté.",
-imagem:"https://taubate.sp.gov.br/wp-content/uploads/2021/06/Cat%C3%A1logo-Celly-Campello-MISTAU-2021.pdf",legenda:"Catálogo histórico Celly Campello: O broto legal de Taubaté, produzido com imagens do acervo do MISTAU. Consulte o documento original.",
+imagem:"",legenda:"",
 historia:[
 "Célia Campello Gomes Chacon, conhecida artisticamente como Celly Campello, nasceu em São Paulo e passou a infância em Taubaté. Desde pequena demonstrou interesse pela música e estudou instrumentos e dança. Ainda criança, começou a cantar em emissoras locais e, na adolescência, chegou a apresentar um programa de rádio.",
 "Na segunda metade da década de 1950, quando o rock and roll começava a conquistar o público jovem brasileiro, Celly ganhou projeção nacional. Em 1958 lançou gravações que abriram caminho para o sucesso. No ano seguinte, Estúpido Cupido tornou-se um grande êxito e ajudou a popularizar o gênero no país.",
@@ -65,7 +65,7 @@ destaques:["Início profissional no rádio","Jornal Nacional, a partir de 1969",
 fontes:[["Wikimedia Commons – fotografia de 1955 e fonte original","https://commons.wikimedia.org/wiki/File:Cid_Moreira.jpg"],["Biblioteca Nacional – Hemeroteca Digital","https://bndigital.bn.gov.br/hemeroteca-digital/"]]
 },
 "tony-campello": {
-nome:"Tony Campello",area:"Música · Televisão",nascimento:"Campinas biográficas em levantamento",morte:"Informação a confirmar em fonte biográfica",origem:"Ligação familiar e artística com Taubaté",
+nome:"Tony Campello",area:"Música · Televisão",nascimento:"Dados biográficos em levantamento",morte:"Informação a confirmar em fonte biográfica",origem:"Ligação familiar e artística com Taubaté",
 resumo:"Cantor e músico que participou da primeira fase do rock brasileiro e dividiu com a irmã Celly Campello parte importante de sua trajetória artística.",
 imagem:"",legenda:"",
 historia:[

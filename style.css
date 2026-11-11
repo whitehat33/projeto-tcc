@@ -14,7 +14,7 @@ body{margin:0;color:var(--texto);background:linear-gradient(rgba(244,241,233,.84
 .cabecalho{background:rgba(250,247,239,.94);border-bottom-color:rgba(142,112,73,.25)}
 .cartao,.historia{box-shadow:0 8px 24px rgba(65,45,24,.045)}
 .secao{scroll-margin-top:90px}
-@media(max-width:700px){.hero{width:calc(100% - 28px);margin-top:14px;padding:30px 22px;background:linear-gradient(rgba(255,253,248,.9),rgba(255,253,248,.94)),url("fundo.png") center center / cover no-repeat}.hero p{font-size:1rem}}
+@media(max-width:700px){.hero{width:calc(100% - 28px);margin-top:14px;padding:30px 22px;background:#fffaf0}.hero p{font-size:1rem}}
 
 h1,h2,h3{font-family:var(--serifada);font-weight:600;line-height:1.15}
 a{color:inherit}

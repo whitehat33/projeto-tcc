@@ -110,21 +110,20 @@ function renderizarPersonalidades() {
       '<li><a href="' + escapar(fonte.url) + '" target="_blank" rel="noopener noreferrer">' +
       escapar(fonte.nome) + '</a></li>'
     ).join("");
-    const id = normalizar(p.nome).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-    const imagem = {
-      "monteiro-lobato":"https://commons.wikimedia.org/wiki/Special:FilePath/Monteiro_Lobato.jpg",
-      "hebe-camargo":"https://commons.wikimedia.org/wiki/Special:FilePath/Hebe_Camargo.jpg",
-      "amacio-mazzaropi":"https://commons.wikimedia.org/wiki/Special:FilePath/Mazzaropi-Am%C3%A1cio.jpg",
-      "celly-campello":"https://taubate.sp.gov.br/wp-content/uploads/2021/06/Cat%C3%A1logo-Celly-Campello-MISTAU-2021.pdf",
-      "cid-moreira":"https://commons.wikimedia.org/wiki/Special:FilePath/Cid_Moreira.jpg"
-    }[id];
     return '<article class="cartao">' +
-      (imagem && !imagem.endsWith(".pdf") ? '<img class="imagem-cartao" src="' + imagem + '" alt="Retrato de ' + escapar(p.nome) + '" loading="lazy">' : '<div class="inicial" aria-hidden="true">' + escapar(p.iniciais) + '</div>') +
+      '<div class="inicial" aria-hidden="true">' + escapar(p.iniciais) + '</div>' +
       '<div class="cartao-conteudo">' +
       '<span class="categoria">' + escapar(p.areas.join(" · ")) + '</span>' +
       '<h3>' + escapar(p.nome) + '</h3>' +
       '<p>' + escapar(p.resumo) + '</p>' +
-      '<a class="link-detalhe" href="perfil.html?id=' + id + '">Conhecer trajetória completa →</a>' +
+      '<details><summary class="link-detalhe">Ver perfil</summary>' +
+      '<p><strong>Atuação:</strong> ' + escapar(p.profissao) + '</p>' +
+      '<p><strong>Nascimento:</strong> ' + escapar(p.nascimento) + '</p>' +
+      '<p><strong>Falecimento:</strong> ' + escapar(p.falecimento) + '</p>' +
+      '<p><strong>Local:</strong> ' + escapar(p.local) + '</p>' +
+      '<p>' + escapar(p.bio) + '</p>' +
+      '<strong>Trabalhos e destaques</strong>' + obras +
+      '<strong>Fontes para consulta</strong><ul>' + fontes + '</ul></details>' +
       '</div></article>';
   }).join("") : '<p class="vazio">Nenhuma personalidade encontrada. Tente outro nome ou filtro.</p>';
 }
