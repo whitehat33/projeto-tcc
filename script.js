@@ -69,6 +69,18 @@ const HISTORIA = [
   {ano:"1952", texto:"A cidade passa a realizar a Semana Monteiro Lobato, evento cultural ligado à memória do escritor."}
 ];
 
+const PERFIL_IDS = {
+  "Monteiro Lobato":"monteiro-lobato", "Hebe Camargo":"hebe-camargo",
+  "Amácio Mazzaropi":"amacio-mazzaropi", "Celly Campello":"celly-campello",
+  "Cid Moreira":"cid-moreira", "Tony Campello":"tony-campello",
+  "Fego Camargo":"fego-camargo", "Heitor Martins":"heitor-martins"
+};
+const IMAGENS = {
+  "Monteiro Lobato":"https://commons.wikimedia.org/wiki/Special:FilePath/Monteiro_Lobato.jpg",
+  "Hebe Camargo":"https://commons.wikimedia.org/wiki/Special:FilePath/Hebe_Camargo.jpg",
+  "Amácio Mazzaropi":"https://commons.wikimedia.org/wiki/Special:FilePath/Mazzaropi-Am%C3%A1cio.jpg",
+  "Cid Moreira":"https://commons.wikimedia.org/wiki/Special:FilePath/Cid_Moreira.jpg"
+};
 const AREAS = ["Todas", ...new Set(PERSONALIDADES.flatMap(p => p.areas))];
 const grade = document.querySelector("#grade-personalidades");
 const busca = document.querySelector("#busca");
@@ -110,8 +122,12 @@ function renderizarPersonalidades() {
       '<li><a href="' + escapar(fonte.url) + '" target="_blank" rel="noopener noreferrer">' +
       escapar(fonte.nome) + '</a></li>'
     ).join("");
+    const idPerfil = PERFIL_IDS[p.nome];
+    const imagem = IMAGENS[p.nome]
+      ? '<img class="imagem-cartao" src="' + escapar(IMAGENS[p.nome]) + '" alt="Retrato de ' + escapar(p.nome) + '" loading="lazy">'
+      : '<div class="inicial" aria-hidden="true">' + escapar(p.iniciais) + '</div>';
     return '<article class="cartao">' +
-      '<div class="inicial" aria-hidden="true">' + escapar(p.iniciais) + '</div>' +
+      imagem +
       '<div class="cartao-conteudo">' +
       '<span class="categoria">' + escapar(p.areas.join(" · ")) + '</span>' +
       '<h3>' + escapar(p.nome) + '</h3>' +
@@ -124,6 +140,7 @@ function renderizarPersonalidades() {
       '<p>' + escapar(p.bio) + '</p>' +
       '<strong>Trabalhos e destaques</strong>' + obras +
       '<strong>Fontes para consulta</strong><ul>' + fontes + '</ul></details>' +
+      '<a class="botao-perfil" href="perfil.html?id=' + encodeURIComponent(idPerfil) + '">Abrir página completa →</a>' +
       '</div></article>';
   }).join("") : '<p class="vazio">Nenhuma personalidade encontrada. Tente outro nome ou filtro.</p>';
 }
