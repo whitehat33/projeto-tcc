@@ -75,11 +75,16 @@ const PERFIL_IDS = {
   "Cid Moreira":"cid-moreira", "Tony Campello":"tony-campello",
   "Fego Camargo":"fego-camargo", "Heitor Martins":"heitor-martins"
 };
+const PASTA_FOTOS = "imagens/personalidades/";
 const IMAGENS = {
-  "Monteiro Lobato":"https://commons.wikimedia.org/wiki/Special:FilePath/Monteiro_Lobato.jpg",
-  "Hebe Camargo":"https://commons.wikimedia.org/wiki/Special:FilePath/Hebe_Camargo.jpg",
-  "Amácio Mazzaropi":"https://commons.wikimedia.org/wiki/Special:FilePath/Mazzaropi-Am%C3%A1cio.jpg",
-  "Cid Moreira":"https://commons.wikimedia.org/wiki/Special:FilePath/Cid_Moreira.jpg"
+  "Monteiro Lobato": PASTA_FOTOS + "monteiro-lobato.webp",
+  "Hebe Camargo": PASTA_FOTOS + "hebe-camargo.webp",
+  "Amácio Mazzaropi": PASTA_FOTOS + "amacio-mazzaropi.webp",
+  "Celly Campello": PASTA_FOTOS + "celly-campello.webp",
+  "Cid Moreira": PASTA_FOTOS + "cid-moreira.webp",
+  "Tony Campello": PASTA_FOTOS + "tony-campello.webp",
+  "Fego Camargo": PASTA_FOTOS + "fego-camargo.webp",
+  "Heitor Martins": PASTA_FOTOS + "heitor-martins-pit-bitoca.webp"
 };
 const AREAS = ["Todas", ...new Set(PERSONALIDADES.flatMap(p => p.areas))];
 const grade = document.querySelector("#grade-personalidades");
