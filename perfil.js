@@ -2,7 +2,7 @@ const PERFIS = {
 "monteiro-lobato": {
 nome:"Monteiro Lobato", area:"Literatura · Edição", nascimento:"18 de abril de 1882", morte:"4 de julho de 1948", origem:"Taubaté, São Paulo",
 resumo:"Escritor, editor e um dos nomes mais conhecidos da literatura brasileira, lembrado tanto pela literatura infantil quanto por seus textos sobre o Brasil rural.",
-imagem:"https://commons.wikimedia.org/wiki/Special:FilePath/Monteiro_Lobato.jpg", legenda:"Monteiro Lobato em fotografia de época. Acervo Wikimedia Commons; imagem em domínio público.",
+imagem:"monteiro-lobato.webp", legenda:"Monteiro Lobato em fotografia de época. Acervo Wikimedia Commons; imagem em domínio público.",
 historia:[
 "José Bento Renato Monteiro Lobato nasceu em Taubaté, em 1882. Passou parte da infância na cidade e, mais tarde, estudou Direito em São Paulo. Antes de se dedicar integralmente à literatura, trabalhou como promotor público e administrou propriedades rurais herdadas da família.",
 "Sua estreia de grande repercussão ocorreu com Urupês, livro de contos publicado em 1918. Nele aparece Jeca Tatu, personagem que se tornou símbolo de suas reflexões sobre o interior brasileiro, as condições de vida no campo e o abandono social. Lobato também atuou como editor e defendeu a ampliação da produção e da circulação de livros no país.",
@@ -15,7 +15,7 @@ fontes:[["Museu Monteiro Lobato / Prefeitura de Taubaté","https://taubate.sp.go
 "hebe-camargo": {
 nome:"Hebe Camargo",area:"Televisão · Música · Rádio",nascimento:"8 de março de 1929",morte:"29 de setembro de 2012",origem:"Taubaté, São Paulo",
 resumo:"Cantora, atriz e apresentadora que se tornou uma das figuras mais populares e reconhecidas da televisão brasileira.",
-imagem:"https://commons.wikimedia.org/wiki/Special:FilePath/Hebe_Camargo.jpg",legenda:"Retrato de Hebe Camargo. Fotografia de Sérgio Savarese, licenciada em Creative Commons BY-SA 2.0.",
+imagem:"hebe-camargo.webp",legenda:"Retrato de Hebe Camargo. Fotografia de Sérgio Savarese, licenciada em Creative Commons BY-SA 2.0.",
 historia:[
 "Hebe Maria Monteiro de Camargo nasceu em Taubaté, em 1929. Começou a vida artística ainda jovem, acompanhando a movimentação cultural do rádio e da música popular. Na década de 1940, integrou formações musicais e iniciou uma trajetória que passaria por diferentes meios de comunicação.",
 "Antes de se consagrar como apresentadora, Hebe trabalhou como cantora e atriz. A televisão brasileira ainda estava em seus primeiros anos quando ela começou a participar de programas e consolidou uma presença própria diante das câmeras. Sua comunicação espontânea, o humor e a proximidade com convidados ajudaram a construir sua identidade pública.",
@@ -28,7 +28,7 @@ fontes:[["Wikimedia Commons – fotografia e licença","https://commons.wikimedi
 "amacio-mazzaropi": {
 nome:"Amácio Mazzaropi",area:"Cinema · Teatro",nascimento:"9 de abril de 1912",morte:"13 de junho de 1981",origem:"Nasceu em São Paulo; cresceu em Taubaté",
 resumo:"Ator, diretor e produtor que levou o personagem caipira às telas e construiu em Taubaté uma parte fundamental de sua história cinematográfica.",
-imagem:"https://commons.wikimedia.org/wiki/Special:FilePath/Mazzaropi-Am%C3%A1cio.jpg",legenda:"Amácio Mazzaropi. Fotografia de LuisK79, Wikimedia Commons, licença CC BY-SA 4.0.",
+imagem:"amacio-mazzaropi.webp",legenda:"Amácio Mazzaropi. Fotografia de LuisK79, Wikimedia Commons, licença CC BY-SA 4.0.",
 historia:[
 "Amácio Mazzaropi nasceu na cidade de São Paulo, em 1912. Ainda criança, mudou-se com a família para Taubaté, onde teve contato com a cultura do interior paulista. Esse ambiente influenciou profundamente o personagem caipira que desenvolveria ao longo da carreira.",
 "Começou a trabalhar no entretenimento em apresentações itinerantes, passando pelo circo e pelo teatro. Depois, ganhou espaço no rádio e na televisão. Seu estilo combinava humor popular, observação de costumes e personagens que enfrentavam situações do cotidiano.",
@@ -41,7 +41,7 @@ fontes:[["Museu Mazzaropi – biografia","https://museumazzaropi.org.br/mazzarop
 "celly-campello": {
 nome:"Celly Campello",area:"Música · Cinema",nascimento:"18 de junho de 1942",morte:"4 de março de 2003",origem:"Nasceu em São Paulo; criada em Taubaté",
 resumo:"Cantora considerada uma das pioneiras do rock brasileiro, que começou a se apresentar ainda criança em emissoras de rádio de Taubaté.",
-imagem:"",legenda:"",
+imagem:"celly-campello.webp",legenda:"Retrato de Celly Campello. Imagem enviada para o acervo.",
 historia:[
 "Célia Campello Gomes Chacon, conhecida artisticamente como Celly Campello, nasceu em São Paulo e passou a infância em Taubaté. Desde pequena demonstrou interesse pela música e estudou instrumentos e dança. Ainda criança, começou a cantar em emissoras locais e, na adolescência, chegou a apresentar um programa de rádio.",
 "Na segunda metade da década de 1950, quando o rock and roll começava a conquistar o público jovem brasileiro, Celly ganhou projeção nacional. Em 1958 lançou gravações que abriram caminho para o sucesso. No ano seguinte, Estúpido Cupido tornou-se um grande êxito e ajudou a popularizar o gênero no país.",
@@ -54,7 +54,7 @@ fontes:[["Prefeitura de Taubaté – catálogo Celly Campello / MISTAU","https:/
 "cid-moreira": {
 nome:"Cid Moreira",area:"Jornalismo · Rádio · Televisão",nascimento:"29 de setembro de 1927",morte:"3 de outubro de 2024",origem:"Taubaté, São Paulo",
 resumo:"Locutor e apresentador nascido em Taubaté, dono de uma das vozes mais reconhecidas da história da televisão brasileira.",
-imagem:"https://commons.wikimedia.org/wiki/Special:FilePath/Cid_Moreira.jpg",legenda:"Cid Moreira em 1955. Fotografia de Mundo Ilustrado, fonte Biblioteca Nacional; domínio público.",
+imagem:"cid-moreira.webp",legenda:"Cid Moreira em 1955. Fotografia de Mundo Ilustrado, fonte Biblioteca Nacional; domínio público.",
 historia:[
 "Cid Moreira nasceu em Taubaté, em 1927. Iniciou sua trajetória profissional no rádio, meio em que desenvolveu a dicção e a presença vocal que mais tarde se tornariam suas marcas registradas.",
 "Com a expansão da televisão, passou a trabalhar como locutor e apresentador. Em 1969, integrou a equipe do Jornal Nacional, da TV Globo, programa que se tornou um dos principais telejornais do país. Sua voz grave e pausada ficou associada à leitura das notícias durante décadas.",
@@ -67,7 +67,7 @@ fontes:[["Wikimedia Commons – fotografia de 1955 e fonte original","https://co
 "tony-campello": {
 nome:"Tony Campello",area:"Música · Televisão",nascimento:"Dados biográficos em levantamento",morte:"Informação a confirmar em fonte biográfica",origem:"Ligação familiar e artística com Taubaté",
 resumo:"Cantor e músico que participou da primeira fase do rock brasileiro e dividiu com a irmã Celly Campello parte importante de sua trajetória artística.",
-imagem:"",legenda:"",
+imagem:"tony-campello.webp",legenda:"Retrato de Tony Campello. Imagem enviada para o acervo.",
 historia:[
 "Sérgio Benelli Campello, conhecido como Tony Campello, construiu sua carreira no período em que o rock and roll começava a ganhar espaço no Brasil. Ao lado da irmã Celly, participou de gravações, apresentações e programas voltados ao público jovem.",
 "A dupla esteve ligada ao ambiente musical de Taubaté e às emissoras de rádio que ajudaram a revelar novos artistas. Tony também desenvolveu carreira própria como cantor, gravando repertório ligado ao rock e à música pop da época.",
@@ -80,7 +80,7 @@ fontes:[["Folha de S.Paulo – trajetória de Celly e Tony","https://www1.folha.
 "fego-camargo": {
 nome:"Maestro Fêgo Camargo",area:"Música · Educação artística",nascimento:"Dados biográficos pessoais em levantamento",morte:"Dados biográficos pessoais em levantamento",origem:"Taubaté, São Paulo",
 resumo:"Maestro homenageado pela Escola Municipal de Artes de Taubaté, instituição que se tornou referência local na formação artística.",
-imagem:"",legenda:"",
+imagem:"fego-camargo.webp",legenda:"Imagem de busto/monumento associado a Maestro Fêgo Camargo; não é uma fotografia pessoal.",
 historia:[
 "Fêgo Camargo é lembrado em Taubaté por sua contribuição à vida musical e cultural do município. A homenagem mais conhecida é a Escola Municipal de Artes Maestro Fêgo Camargo, criada em 1967 por iniciativa de um grupo de músicos com apoio do poder público.",
 "Em 1971, a instituição recebeu o nome do maestro, reconhecendo seu trabalho na área musical da cidade. A escola ampliou sua atuação ao longo do tempo e passou a oferecer formação em diferentes linguagens artísticas.",
@@ -93,7 +93,7 @@ fontes:[["Prefeitura de Taubaté – Escola Municipal de Artes Maestro Fêgo Cam
 "heitor-martins": {
 nome:"Heitor Martins",area:"Atuação · Artes cênicas",nascimento:"Dados biográficos em levantamento",morte:"Dados biográficos em levantamento",origem:"Ligação com Taubaté a confirmar",
 resumo:"Nome citado no levantamento inicial do acervo, cuja identificação e trajetória precisam de confirmação documental antes de uma biografia detalhada.",
-imagem:"",legenda:"",
+imagem:"heitor-martins-pit-bitoca.webp",legenda:"Imagem associada ao personagem Pit Bitoca; a identificação biográfica de Heitor Martins ainda está em pesquisa.",
 historia:[
 "Heitor Martins aparece no levantamento inicial de personalidades ligadas ao projeto, mas as referências disponíveis até o momento não permitem confirmar com segurança qual profissional com esse nome está sendo citado.",
 "Como existem pessoas diferentes com nomes iguais ou semelhantes, publicar datas, fotografias ou trabalhos sem uma identificação precisa poderia atribuir informações à pessoa errada. Por isso, este perfil apresenta apenas o estado atual da pesquisa.",
